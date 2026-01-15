@@ -54,7 +54,7 @@ std::string GetAnisetteURL() {
 	if (server) {
 		return server;
 	}
-	return U("https://armconverter.com/anisette/irGb3Quww8zrhgqnzmrx");
+	return U("https://ani.sidestore.io");
 }
 
 std::shared_ptr<AnisetteData> AnisetteDataManager::FetchAnisetteData()
